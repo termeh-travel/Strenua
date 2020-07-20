@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>enable</Nullable>
+    <Version>0.1.0</Version>
+    <Company>Termeh Travel</Company>
+    <Authors>Mohammad ShafieZadeh</Authors>
+    <Description>This library provdes extensions for MicroBus library</Description>
+    <Copyright />
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageTags>
+      CQRS;MicroBusExtensions;MediatorPattern;
+    </PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Enexure.MicroBus" Version="3.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Termeh.Toolkit.Domain\Termeh.Toolkit.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

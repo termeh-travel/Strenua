@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0B4E6254-3BE1-459D-A59A-C1BE6C7A873B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Termeh.Toolkit.MicroBus", "src\Termeh.Toolkit.MicroBus\Termeh.Toolkit.MicroBus.csproj", "{2178E5DA-1F58-4EC9-BB00-177117FF2216}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Termeh.Toolkit.Domain", "src\Termeh.Toolkit.Domain\Termeh.Toolkit.Domain.csproj", "{7C146CC4-238A-4AB0-AED9-5E66B25D9502}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Termeh.Toolkit.EntityFramework", "src\Termeh.Toolkit.EntityFramework\Termeh.Toolkit.EntityFramework.csproj", "{ED90895F-2A31-45D8-802C-E8CBD441E376}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Termeh.Toolkit.EntityFramework.MicrosoftDI", "src\Termeh.Toolkit.EntityFramework.MicrosoftDI\Termeh.Toolkit.EntityFramework.MicrosoftDI.csproj", "{5962E7E5-29D6-4373-8484-5FB6DEDA8C65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Termeh.Toolkit.Reactive", "src\Termeh.Toolkit.Reactive\Termeh.Toolkit.Reactive.csproj", "{35B1DF8D-22C9-4561-8E99-855B32502B5A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2178E5DA-1F58-4EC9-BB00-177117FF2216} = {0B4E6254-3BE1-459D-A59A-C1BE6C7A873B}
+		{7C146CC4-238A-4AB0-AED9-5E66B25D9502} = {0B4E6254-3BE1-459D-A59A-C1BE6C7A873B}
+		{ED90895F-2A31-45D8-802C-E8CBD441E376} = {0B4E6254-3BE1-459D-A59A-C1BE6C7A873B}
+		{5962E7E5-29D6-4373-8484-5FB6DEDA8C65} = {0B4E6254-3BE1-459D-A59A-C1BE6C7A873B}
+		{35B1DF8D-22C9-4561-8E99-855B32502B5A} = {0B4E6254-3BE1-459D-A59A-C1BE6C7A873B}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2178E5DA-1F58-4EC9-BB00-177117FF2216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2178E5DA-1F58-4EC9-BB00-177117FF2216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2178E5DA-1F58-4EC9-BB00-177117FF2216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2178E5DA-1F58-4EC9-BB00-177117FF2216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C146CC4-238A-4AB0-AED9-5E66B25D9502}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C146CC4-238A-4AB0-AED9-5E66B25D9502}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C146CC4-238A-4AB0-AED9-5E66B25D9502}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C146CC4-238A-4AB0-AED9-5E66B25D9502}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED90895F-2A31-45D8-802C-E8CBD441E376}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED90895F-2A31-45D8-802C-E8CBD441E376}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED90895F-2A31-45D8-802C-E8CBD441E376}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED90895F-2A31-45D8-802C-E8CBD441E376}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5962E7E5-29D6-4373-8484-5FB6DEDA8C65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5962E7E5-29D6-4373-8484-5FB6DEDA8C65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5962E7E5-29D6-4373-8484-5FB6DEDA8C65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5962E7E5-29D6-4373-8484-5FB6DEDA8C65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35B1DF8D-22C9-4561-8E99-855B32502B5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35B1DF8D-22C9-4561-8E99-855B32502B5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35B1DF8D-22C9-4561-8E99-855B32502B5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35B1DF8D-22C9-4561-8E99-855B32502B5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

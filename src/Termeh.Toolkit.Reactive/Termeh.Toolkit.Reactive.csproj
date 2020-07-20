@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Description>Termeh Reactive</Description>
+    <Nullable>enable</Nullable>
+    <Version>0.1.0</Version>
+    <Company>Termeh Travel</Company>
+    <Authors>Mohammad ShafieZadeh</Authors>
+    <Copyright />
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageTags>
+      EventAggregator;Reactive;
+    </PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Reactive.Linq" Version="4.3.2" />
+  </ItemGroup>
+
+</Project>
