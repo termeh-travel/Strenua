@@ -1,7 +1,7 @@
-# Termeh Toolkt 
+# Strenua 
 
-[![Build Status](https://travis-ci.com/termeh-travel/Termeh.Toolkit.svg?branch=master)](https://travis-ci.com/termeh-travel/Termeh.Toolkit)
+[![Build Status](https://travis-ci.com/termeh-travel/Strenua.svg?branch=master)](https://travis-ci.com/termeh-travel/Strenua)
 
-Termeh Toolkit is a set of libraries designed to implement projects based on domain-driven design and micro-service architecture.
+Strenua is a set of libraries designed to implement projects based on domain-driven design and micro-service architecture.
 
 
