@@ -4,15 +4,16 @@ namespace Strenua.Domain
 {
     public interface IEntity
     {
-        
+        DateTime CreatedAt { get; }
+        DateTime UpdatedAt { get; }
+        public event EventHandler IdentifierSetEvent;
+        object Identifier { get; }
     }
 
     public interface IEntity<out TIdentifier> : IEntity where TIdentifier : notnull
     {
         TIdentifier Id { get; }
-        DateTime CreatedAt { get; }
-        DateTime UpdatedAt { get; }
-        public event EventHandler IdentifierSetEvent;
+
     }
 
     public abstract class Entity<TIdentifier> : IEntity<TIdentifier>, IEquatable<Entity<TIdentifier>> where TIdentifier : notnull
@@ -33,6 +34,7 @@ namespace Strenua.Domain
         public DateTime UpdatedAt { get; protected set; }
 
         public event EventHandler IdentifierSetEvent;
+        public object Identifier => Id;
 
         public static bool operator !=(Entity<TIdentifier> a, Entity<TIdentifier> b)
         {
