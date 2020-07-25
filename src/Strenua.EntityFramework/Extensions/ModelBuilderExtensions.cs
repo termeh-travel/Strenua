@@ -31,24 +31,24 @@ namespace Strenua.EntityFramework.Extensions
             return builder;
         }
 
-        public static void OnEntityCreate(this DbContext dbContext, Action<object, EntityTrackedEventArgs> callback)
+        public static void OnEntityCreate<TEntity>(this DbContext dbContext, Action<TEntity> callback)
         {
             dbContext.ChangeTracker.Tracked += (sender, args) =>
             {
-                if (!args.FromQuery && args.Entry.State == EntityState.Added)
+                if (!args.FromQuery && args.Entry.State == EntityState.Added && args.Entry.Entity is TEntity entity)
                 {
-                    callback(sender, args);
+                    callback(entity);
                 }
             };
         }
-        
-        public static void OnEntityUpdate(this DbContext dbContext, Action<object, EntityStateChangedEventArgs> callback)
+
+        public static void OnEntityUpdate<TEntity>(this DbContext dbContext, Action<TEntity> callback)
         {
             dbContext.ChangeTracker.StateChanged += (sender, args) =>
             {
-                if (args.NewState == EntityState.Modified)
+                if (args.NewState == EntityState.Modified && args.Entry.Entity is TEntity entity)
                 {
-                    callback(sender, args);
+                    callback(entity);
                 }
             };
         }
