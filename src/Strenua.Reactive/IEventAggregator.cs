@@ -1,6 +1,6 @@
 using System;
 
-namespace Termeh.Toolkit.Reactive
+namespace Strenua.Reactive
 {
     public interface IEventAggregator : IDisposable
     {

@@ -1,8 +1,8 @@
 using System.Threading.Tasks;
 using Enexure.MicroBus;
-using Termeh.Toolkit.Domain;
+using Strenua.Domain;
 
-namespace Termeh.Toolkit.MicroBus
+namespace Strenua.MicroBus
 {
     public interface IDomainEventHandler<in TDomainEvent> : IMessageHandler<TDomainEvent, Unit> where TDomainEvent: IDomainEvent
     {

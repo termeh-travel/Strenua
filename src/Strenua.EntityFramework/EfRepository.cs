@@ -1,8 +1,8 @@
 ﻿using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using Termeh.Toolkit.Domain.Persistence;
+using Strenua.Domain.Persistence;
 
-namespace Termeh.Toolkit.EntityFramework
+namespace Strenua.EntityFramework
 {
     public class EfRepository<TEntity> : IRepository<TEntity> where TEntity : class
     {

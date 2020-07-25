@@ -2,7 +2,7 @@
 using System.Reactive.Linq;
 using System.Reactive.Subjects;
 
-namespace Termeh.Toolkit.Reactive
+namespace Strenua.Reactive
 {
     public class EventAggregator : IEventAggregator
     {

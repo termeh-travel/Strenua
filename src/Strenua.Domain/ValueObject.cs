@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace Termeh.Toolkit.Domain
+namespace Strenua.Domain
 {
     public abstract class ValueObject
     {

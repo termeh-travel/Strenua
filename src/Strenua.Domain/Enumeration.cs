@@ -5,7 +5,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Reflection;
 
-namespace Termeh.Toolkit.Domain
+namespace Strenua.Domain
 {
     [Serializable]
     [DebuggerDisplay("{Name} - {Identifier}")]

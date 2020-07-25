@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace Termeh.Toolkit.Domain
+namespace Strenua.Domain
 {
     public interface IUnitOfWork : IDisposable
     {

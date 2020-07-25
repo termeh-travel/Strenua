@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace Termeh.Toolkit.EntityFramework
+namespace Strenua.EntityFramework
 {
     public interface IDbContextAccessor
     {

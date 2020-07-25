@@ -2,9 +2,8 @@ using System;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using Termeh.Toolkit.EntityFramework;
 
-namespace Termeh.Toolkit.EntityFramework.MicrosoftDI
+namespace Strenua.EntityFramework.MicrosoftDI
 {
     public static class ServiceProviderExtensions
     {

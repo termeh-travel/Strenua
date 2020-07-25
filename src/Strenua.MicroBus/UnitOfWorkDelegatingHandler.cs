@@ -1,10 +1,9 @@
 ﻿using System;
-using System.Linq;
 using System.Threading.Tasks;
 using Enexure.MicroBus;
-using Termeh.Toolkit.Domain;
+using Strenua.Domain;
 
-namespace Termeh.Toolkit.MicroBus
+namespace Strenua.MicroBus
 {
     public class UnitOfWorkDelegatingHandler : IDelegatingHandler
     {

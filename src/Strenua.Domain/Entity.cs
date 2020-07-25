@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Termeh.Toolkit.Domain
+namespace Strenua.Domain
 {
     public interface IEntity
     {

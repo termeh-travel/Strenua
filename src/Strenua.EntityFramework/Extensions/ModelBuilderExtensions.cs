@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace Termeh.Toolkit.EntityFramework.Extensions
+namespace Strenua.EntityFramework.Extensions
 {
     public static class ModelBuilderExtensions
     {

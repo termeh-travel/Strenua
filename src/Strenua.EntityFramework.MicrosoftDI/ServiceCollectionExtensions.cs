@@ -1,9 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using Termeh.Toolkit.EntityFramework;
-using Termeh.Toolkit.Domain;
+using Strenua.Domain;
 
-namespace Termeh.Toolkit.EntityFramework.MicrosoftDI
+namespace Strenua.EntityFramework.MicrosoftDI
 {
     public static class ServiceCollectionExtensions
     {

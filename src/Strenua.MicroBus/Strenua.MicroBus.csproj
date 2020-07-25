@@ -6,22 +6,21 @@
     <Version>0.1.0</Version>
     <Company>Termeh Travel</Company>
     <Authors>Mohammad ShafieZadeh</Authors>
-    <Description>Extensions for Entity Framework Core</Description>
+    <Description>This library provdes extensions for MicroBus library</Description>
     <Copyright />
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageTags>
-      EntityFrameworkCoreExtensions;EntityFrameworkCore;DbContext;
+      CQRS;MicroBusExtensions;MediatorPattern;
     </PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.2" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.2" />
+    <PackageReference Include="Enexure.MicroBus" Version="3.6.2" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Termeh.Toolkit.Domain\Termeh.Toolkit.Domain.csproj" />
+    <ProjectReference Include="..\Strenua.Domain\Strenua.Domain.csproj" />
   </ItemGroup>
 
 </Project>

@@ -6,7 +6,7 @@
     <Version>0.1.0</Version>
     <Company>Termeh Travel</Company>
     <Authors>Mohammad ShafieZadeh</Authors>
-    <Description>Microsoft DependencyInjection support for ParooPlus.EntityFramework</Description>
+    <Description>Extensions for Entity Framework Core</Description>
     <Copyright />
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageTags>
@@ -16,14 +16,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.2" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.2" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.2" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Termeh.Toolkit.Domain\Termeh.Toolkit.Domain.csproj" />
-    <ProjectReference Include="..\Termeh.Toolkit.EntityFramework\Termeh.Toolkit.EntityFramework.csproj" />
+    <ProjectReference Include="..\Strenua.Domain\Strenua.Domain.csproj" />
   </ItemGroup>
 
 </Project>

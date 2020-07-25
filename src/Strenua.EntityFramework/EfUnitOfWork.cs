@@ -2,9 +2,9 @@
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using Termeh.Toolkit.Domain;
+using Strenua.Domain;
 
-namespace Termeh.Toolkit.EntityFramework
+namespace Strenua.EntityFramework
 {
     public class EfUnitOfWork : IUnitOfWork
     {

@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace Termeh.Toolkit.Domain.Persistence
+namespace Strenua.Domain.Persistence
 {
     public interface IRepository<TEntity> where TEntity: class
     {
