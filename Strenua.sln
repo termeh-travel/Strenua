@@ -1,35 +1,32 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0B4E6254-3BE1-459D-A59A-C1BE6C7A873B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strenua.MicroBus", "src\Strenua.MicroBus\Strenua.MicroBus.csproj", "{2178E5DA-1F58-4EC9-BB00-177117FF2216}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strenua.MicroBus", "src\Strenua.MicroBus\Strenua.MicroBus.csproj", "{2178E5DA-1F58-4EC9-BB00-177117FF2216}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strenua.Domain", "src\Strenua.Domain\Strenua.Domain.csproj", "{7C146CC4-238A-4AB0-AED9-5E66B25D9502}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strenua.Domain", "src\Strenua.Domain\Strenua.Domain.csproj", "{7C146CC4-238A-4AB0-AED9-5E66B25D9502}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strenua.EntityFramework", "src\Strenua.EntityFramework\Strenua.EntityFramework.csproj", "{ED90895F-2A31-45D8-802C-E8CBD441E376}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strenua.EntityFramework", "src\Strenua.EntityFramework\Strenua.EntityFramework.csproj", "{ED90895F-2A31-45D8-802C-E8CBD441E376}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strenua.EntityFramework.MicrosoftDI", "src\Strenua.EntityFramework.MicrosoftDI\Strenua.EntityFramework.MicrosoftDI.csproj", "{5962E7E5-29D6-4373-8484-5FB6DEDA8C65}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strenua.EntityFramework.MicrosoftDI", "src\Strenua.EntityFramework.MicrosoftDI\Strenua.EntityFramework.MicrosoftDI.csproj", "{5962E7E5-29D6-4373-8484-5FB6DEDA8C65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strenua.Reactive", "src\Strenua.Reactive\Strenua.Reactive.csproj", "{35B1DF8D-22C9-4561-8E99-855B32502B5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strenua.Reactive", "src\Strenua.Reactive\Strenua.Reactive.csproj", "{35B1DF8D-22C9-4561-8E99-855B32502B5A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F22BDC80-82F5-4834-AEDC-5866A1ECAFAE}"
-ProjectSection(SolutionItems) = preProject
-	.gitignore = .gitignore
-	.travis.yml = .travis.yml
-	README.md = README.md
-EndProjectSection
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		.travis.yml = .travis.yml
+		nuget.config = nuget.config
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{2178E5DA-1F58-4EC9-BB00-177117FF2216} = {0B4E6254-3BE1-459D-A59A-C1BE6C7A873B}
-		{7C146CC4-238A-4AB0-AED9-5E66B25D9502} = {0B4E6254-3BE1-459D-A59A-C1BE6C7A873B}
-		{ED90895F-2A31-45D8-802C-E8CBD441E376} = {0B4E6254-3BE1-459D-A59A-C1BE6C7A873B}
-		{5962E7E5-29D6-4373-8484-5FB6DEDA8C65} = {0B4E6254-3BE1-459D-A59A-C1BE6C7A873B}
-		{35B1DF8D-22C9-4561-8E99-855B32502B5A} = {0B4E6254-3BE1-459D-A59A-C1BE6C7A873B}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{2178E5DA-1F58-4EC9-BB00-177117FF2216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -52,5 +49,18 @@ Global
 		{35B1DF8D-22C9-4561-8E99-855B32502B5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35B1DF8D-22C9-4561-8E99-855B32502B5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35B1DF8D-22C9-4561-8E99-855B32502B5A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2178E5DA-1F58-4EC9-BB00-177117FF2216} = {0B4E6254-3BE1-459D-A59A-C1BE6C7A873B}
+		{7C146CC4-238A-4AB0-AED9-5E66B25D9502} = {0B4E6254-3BE1-459D-A59A-C1BE6C7A873B}
+		{ED90895F-2A31-45D8-802C-E8CBD441E376} = {0B4E6254-3BE1-459D-A59A-C1BE6C7A873B}
+		{5962E7E5-29D6-4373-8484-5FB6DEDA8C65} = {0B4E6254-3BE1-459D-A59A-C1BE6C7A873B}
+		{35B1DF8D-22C9-4561-8E99-855B32502B5A} = {0B4E6254-3BE1-459D-A59A-C1BE6C7A873B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5051C878-124D-48DE-BB89-D6C82EC2B946}
 	EndGlobalSection
 EndGlobal
