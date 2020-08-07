@@ -15,8 +15,7 @@ namespace Strenua.EntityFramework.Extensions
         /// <param name="propertyName"></param>
         /// <param name="saveBehavior"></param>
         /// <returns></returns>
-        public static ModelBuilder SetPropertySaveBehavior(this ModelBuilder builder, string propertyName,
-            PropertySaveBehavior saveBehavior)
+        public static ModelBuilder SetPropertySaveBehavior(this ModelBuilder builder, string propertyName, PropertySaveBehavior saveBehavior)
         {
             var properties = builder.Model
                 .GetEntityTypes()
