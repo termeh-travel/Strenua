@@ -6,7 +6,7 @@
     <Version>0.1.0</Version>
     <Company>Termeh Travel</Company>
     <Authors>Mohammad ShafieZadeh</Authors>
-    <Description>Microsoft DependencyInjection support for ParooPlus.EntityFramework</Description>
+    <Description>Microsoft DependencyInjection support for Strenua.EntityFramework</Description>
     <Copyright />
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageTags>
